@@ -55,7 +55,7 @@ public class TestNGTests {
         Assert.assertEquals(successMessageText,expectedMessageText);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3, groups = "Functional", description = "To verify registration of new user")
     public void validateRegister(){
 
         // Test Data
