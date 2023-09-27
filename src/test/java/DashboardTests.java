@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -14,7 +15,8 @@ public class DashboardTests {
 
     @BeforeTest
     public void setup(){
-    driver = new FirefoxDriver();
+    System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\Version 117.0.5938.92\\chromedriver-win64\\chromedriver.exe");
+    driver = new ChromeDriver();
     driver.get(demoURL);
     }
 

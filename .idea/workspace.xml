@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7638351d-bc99-4240-a417-9a5ff789e306" name="Changes" comment="Tests are grouped in Tests package&#10;TestNG XML file is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DashboardTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DashboardTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +50,7 @@
       <recent name="C:\Users\naeemmuh\IdeaProjects\FirstTestNGProjectwithMaven\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DashboardTests">
-    <configuration name="C:/Users/naeemmuh/IdeaProjects/FirstTestNGProjectwithMaven/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstTestNGProjectwithMaven" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-        <listener class="org.testng.reporters.FailedReporter" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.DashboardTests.validateMercuryPageTitle (1)">
     <configuration name="DashboardTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstTestNGProjectwithMaven" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,6 +73,18 @@
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.DashboardTests" />
       <option name="METHOD_NAME" value="validateLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardTests.validateMercuryPageTitle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstTestNGProjectwithMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DashboardTests" />
+      <option name="METHOD_NAME" value="validateMercuryPageTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,19 +123,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.DashboardTests.validateMercuryPageTitle (1)" />
       <item itemvalue="TestNG.DashboardTests" />
       <item itemvalue="TestNG.RegistrationTests.validateRegister" />
       <item itemvalue="TestNG.DashboardTests.validateLoginTest" />
-      <item itemvalue="TestNG.C:/Users/naeemmuh/IdeaProjects/FirstTestNGProjectwithMaven/testng.xml" />
       <item itemvalue="TestNG.DashboardTests.validateMercuryPageTitle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DashboardTests.validateMercuryPageTitle (1)" />
         <item itemvalue="TestNG.DashboardTests" />
         <item itemvalue="TestNG.RegistrationTests.validateRegister" />
         <item itemvalue="TestNG.DashboardTests.validateLoginTest" />
         <item itemvalue="TestNG.DashboardTests.validateMercuryPageTitle" />
-        <item itemvalue="TestNG.C:/Users/naeemmuh/IdeaProjects/FirstTestNGProjectwithMaven/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695809199843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tests are grouped in Tests package&#10;TestNG XML file is added">
+      <created>1695811198140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695811198140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
