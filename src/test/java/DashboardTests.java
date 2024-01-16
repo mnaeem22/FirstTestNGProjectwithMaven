@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 
 public class DashboardTests {
 
-    public WebDriver driver;
+    WebDriver driver = new ChromeDriver();;
     public String demoURL = "https://demo.guru99.com/test/newtours/";
 
     @BeforeTest
     public void setup(){
-    System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\Version 117.0.5938.92\\chromedriver-win64\\chromedriver.exe");
-    driver = new ChromeDriver();
+    //System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\Version 117.0.5938.92\\chromedriver-win64\\chromedriver.exe");
+
     driver.get(demoURL);
     }
 

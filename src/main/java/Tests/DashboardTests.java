@@ -18,7 +18,7 @@ public class DashboardTests {
 
     @BeforeTest
     public void setup(){
-    driver = new FirefoxDriver();
+    driver = new ChromeDriver();
     driver.get(demoURL);
     }
 

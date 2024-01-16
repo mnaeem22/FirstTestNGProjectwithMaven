@@ -7,7 +7,9 @@
     <list default="true" id="7638351d-bc99-4240-a417-9a5ff789e306" name="Changes" comment="Tests are grouped in Tests package&#10;TestNG XML file is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/DashboardTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/DashboardTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DashboardTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DashboardTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
       <recent name="C:\Users\naeemmuh\IdeaProjects\FirstTestNGProjectwithMaven\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DashboardTests.validateMercuryPageTitle (1)">
+  <component name="RunManager" selected="TestNG.DashboardTests.validateMercuryPageTitle">
     <configuration name="DashboardTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstTestNGProjectwithMaven" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,11 +133,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DashboardTests.validateMercuryPageTitle" />
         <item itemvalue="TestNG.DashboardTests.validateMercuryPageTitle (1)" />
+        <item itemvalue="TestNG.DashboardTests.validateLoginTest" />
         <item itemvalue="TestNG.DashboardTests" />
         <item itemvalue="TestNG.RegistrationTests.validateRegister" />
-        <item itemvalue="TestNG.DashboardTests.validateLoginTest" />
-        <item itemvalue="TestNG.DashboardTests.validateMercuryPageTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695811198140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tests are grouped in Tests package&#10;TestNG XML file is added">
+      <created>1695812313719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695812313719</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
