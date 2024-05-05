@@ -10,9 +10,10 @@ import org.testng.annotations.Test;
 
 public class DashboardTests {
 
-    WebDriver driver = new ChromeDriver();;
+    WebDriver driver = new ChromeDriver();
     public String demoURL = "https://demo.guru99.com/test/newtours/";
     //This is change from git
+    //This test change is from Local
 
     @BeforeTest
     public void setup(){
