@@ -17,7 +17,7 @@ public class RegistrationTests {
 
     @BeforeTest
     public void setup(){
-
+        //Launch browser
         driver = new ChromeDriver();
         driver.get(demoURL);
     }
