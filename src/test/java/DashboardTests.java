@@ -12,6 +12,7 @@ public class DashboardTests {
 
     WebDriver driver = new ChromeDriver();;
     public String demoURL = "https://demo.guru99.com/test/newtours/";
+    //This is change from git
 
     @BeforeTest
     public void setup(){
