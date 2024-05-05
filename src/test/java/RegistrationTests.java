@@ -17,9 +17,7 @@ public class RegistrationTests {
 
     @BeforeTest
     public void setup(){
-        //  ChromeOptions co = new ChromeOptions();
-        // co.addArguments("--remote-allow-origins=*");
-        //Launch browser
+
         driver = new ChromeDriver();
         driver.get(demoURL);
     }
